@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen"
+    tools:context="com.agricosacademy.agricosacademy.FullscreenActivity">
+
+    <ImageView
+        android:id="@+id/ic_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="212dp"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agricos Academy"
+        android:textSize="32sp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/ic_logo"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tv_dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed by:"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_above="@+id/tv_skylark"/>
+
+    <TextView
+        android:id="@+id/tv_skylark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SKylark IT Solutions"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:paddingBottom="16dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

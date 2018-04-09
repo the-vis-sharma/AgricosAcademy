@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "454790298994",
+    "firebase_url": "https://agricosacademy.firebaseio.com",
+    "project_id": "agricosacademy",
+    "storage_bucket": "agricosacademy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454790298994:android:c1aeeac66b5bb1ce",
+        "android_client_info": {
+          "package_name": "com.agricosacademy.agricosacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454790298994-tb7sj02hjjilfh1u7kg6b6jf2jjafrr7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agricosacademy.agricosacademy",
+            "certificate_hash": "7f66b7b1fd8d12c5b897d8537eae2051043fb5ca"
+          }
+        },
+        {
+          "client_id": "454790298994-9q6fcspmjdhd437gnvl033movp453mb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiRl7IX0O1KBrLEtSM4pTLEPVger_pmvM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454790298994-9q6fcspmjdhd437gnvl033movp453mb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
